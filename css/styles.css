@@ -255,6 +255,35 @@ select:-webkit-autofill:focus {
   opacity: 0.6;
 }
 
+/* HERO */
+.hero {
+  padding-top: 92px;
+  padding-bottom: 222px;
+  background-image: url("../img/hero-bg.svg");
+  background-repeat: no-repeat;
+  background-position: left calc(50% + 476px) top 30px;
+}
+
+.hero__inner {
+  max-width: 565px;
+}
+
+.hero__title {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: -2px;
+  color: var(--text-color-dark);
+}
+
+.hero__text {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-size: 22px;
+  line-height: 36px;
+}
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
